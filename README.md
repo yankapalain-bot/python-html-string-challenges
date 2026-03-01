@@ -15,7 +15,7 @@ and concatenation only. No parsers, no libraries — pure string primitives.
 | # | Challenge | Branch | Status |
 |---|-----------|--------|--------|
 | 1 | Update Page Metadata | `challenge/01-metadata` | ✅ Done |
-| 2 | Update Stylesheet and Script Sources | `challenge/02-assets` | ⏳ Pending |
+| 2 | Update Stylesheet and Script Sources | `challenge/02-assets` | ✅ Done |
 | 3 | Inject Heading Tags | `challenge/03-headings` | ⏳ Pending |
 | 4 | Add Paragraph and Image Tags | `challenge/04-content` | ⏳ Pending |
 | 5 | Full Page Builder | `challenge/05-full-page` | ⏳ Pending |
@@ -36,3 +36,18 @@ and concatenation only. No parsers, no libraries — pure string primitives.
 
 **Browser preview:** Open `html_outputs/challenge_01_output.html` in a browser to verify
 the updated `lang` attribute and `<title>` tag render correctly.
+
+### Challenge 2 — Update Style and Script
+
+**Concepts:** `.find()`,  `.index()`, f-strings, string concatenation
+
+**Solution file:** `challenge_02_stylesheets_and_scripts.py`
+
+**HTML output file:** `html_outputs/challenge_02_output.html`
+
+**Terminal output:**
+
+![Challenge 1 Terminal](screenshots/challenge_02_terminal.png)
+
+**Browser preview:** Open `html_outputs/challenge_02_output.html` in a browser to verify
+the updated `script` attribute and `link` attribute render correctly.
