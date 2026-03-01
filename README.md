@@ -17,7 +17,7 @@ and concatenation only. No parsers, no libraries — pure string primitives.
 | 1 | Update Page Metadata | `challenge/01-metadata` | ✅ Done |
 | 2 | Update Stylesheet and Script Sources | `challenge/02-assets` | ✅ Done |
 | 3 | Inject Heading Tags | `challenge/03-headings` | ✅ Done |
-| 4 | Add Paragraph and Image Tags | `challenge/04-content` | ⏳ Pending |
+| 4 | Add Paragraph and Image Tags | `challenge/04-content` | ✅ Done|
 | 5 | Full Page Builder | `challenge/05-full-page` | ⏳ Pending |
 
 ## Outputs
@@ -67,3 +67,18 @@ the updated `script` attribute and `link` attribute render correctly.
 
 **Browser preview:** Open `html_outputs/challenge_03_output.html` in a browser to verify
 the updated `head` content render correctly.
+
+### Challenge 4 — Add Paragraph and Image Tags 
+
+**Concepts:** `.find()`, `.rfind()`, multi-step string reconstruction, f-strings, \n and indentation management
+
+**Solution file:** `challenge_04_headings.py`
+
+**HTML output file:** `html_outputs/challenge_04_output.html`
+
+**Terminal output:**
+
+![Challenge 4 Terminal](screenshots/challenge_04_terminal.png)
+
+**Browser preview:** Open `html_outputs/challenge_03_output.html` in a browser to verify
+the updated `P` content and `img` with attributes render correctly.
